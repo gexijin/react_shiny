@@ -1,0 +1,11 @@
+default:
+  webapp_dir: "./www/build"
+  shiny_autoreload: FALSE
+
+prod:
+  webapp_dir: "./www/build"
+  shiny_autoreload: FALSE
+
+dev:
+  webapp_dir: "../React/build"
+  shiny_autoreload: TRUE
